@@ -1,7 +1,7 @@
 # Проект «Киноман»
 
 * Студент: [Павел Ярин](https://up.htmlacademy.ru/ecmascript/15/user/89187).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker).
 
 ---
 
