@@ -10,6 +10,7 @@ const renderComponent = (container, place, template) => {
 const headerElement = document.querySelector('.header');
 const filmsListElement = document.querySelector('.main');
 
+
 for (let i = 0; i < CARDS_PER_PAGE; i++) {
   renderComponent(filmsListElement, 'beforeend', createFilmCardTemplate());
 }
