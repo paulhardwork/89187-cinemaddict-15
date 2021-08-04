@@ -5,7 +5,7 @@ import {createPopupFilmInfo} from './view/popup.js';
 import {createUserMenuTemplate} from './view/main-menu.js';
 
 const CARDS_PER_PAGE = 5;
-const CARDS_ANY_SECTIONS = 2;
+const CARDS_OTHER_SECTIONS = 2;
 
 const headerElement = document.querySelector('.header');
 const mainElement = document.querySelector('.main');
@@ -50,7 +50,7 @@ for (let i = 0; i < CARDS_PER_PAGE; i++) {
   renderComponent(filmsListWrapper, 'beforeend', createFilmCardTemplate());
 }
 
-for (let i = 0; i < CARDS_ANY_SECTIONS; i++) {
+for (let i = 0; i < CARDS_OTHER_SECTIONS; i++) {
   renderComponent(topRatedWrapper, 'beforeend', createFilmCardTemplate());
   renderComponent(mostCommentedWrapper, 'beforeend', createFilmCardTemplate());
 }
